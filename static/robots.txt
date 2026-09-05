@@ -1,0 +1,5 @@
+# NALAR robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://nalar.intuezy.my.id/sitemap.xml
