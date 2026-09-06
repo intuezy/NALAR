@@ -5,12 +5,7 @@
 <section id="faq" class="border-t border-border py-16 md:py-24" aria-labelledby="faq-heading">
 	<!-- Section Header -->
 	<div class="max-w-2xl">
-		<div class="tag-mono mb-3 flex items-center gap-2 text-xs text-foreground-subtle">
-			<span class="inline-flex gap-1 text-[8px] text-accent select-none" aria-hidden="true"
-				>■ ■ ■</span
-			>
-			<span>08 / TANYA JAWAB</span>
-		</div>
+		<p class="tag-mono mb-3 text-xs font-semibold tracking-wider text-accent">TANYA JAWAB</p>
 		<h2
 			id="faq-heading"
 			class="text-2xl font-bold tracking-tight text-foreground sm:text-3xl md:text-4xl"

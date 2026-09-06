@@ -10,12 +10,7 @@
 	<div
 		class="mx-auto max-w-3xl rounded-xl border border-border bg-canvas-subtle px-6 py-12 text-center shadow-[2px_2px_0px_0px_var(--color-border)] sm:px-12 sm:py-16"
 	>
-		<div class="inline-flex items-center gap-2">
-			<span class="inline-flex gap-1 text-[8px] text-accent select-none" aria-hidden="true"
-				>■ ■ ■</span
-			>
-			<span class="tag-mono text-xs text-foreground-subtle">09 / KONSULTASI</span>
-		</div>
+		<p class="tag-mono mb-3 text-xs font-semibold tracking-wider text-accent">KONSULTASI</p>
 
 		<h2
 			id="final-cta-heading"

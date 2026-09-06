@@ -46,7 +46,7 @@ export const siteConfig = {
 	domain: 'nalar.intuezy.my.id',
 	parentUrl: 'https://intuezy.my.id',
 	url: 'https://nalar.intuezy.my.id',
-	metaTitle: 'NALAR — Ada Masalah, Ada NALAR | Solusi Praktis Kebutuhan IT',
+	metaTitle: 'NALAR — Ada Masalah, Ada NALAR | IT Solutions',
 	metaDescription:
 		'NALAR membantu individu dan bisnis menyelesaikan kebutuhan IT, dari komputer dan data recovery hingga Linux, server, dan website.',
 
@@ -65,7 +65,12 @@ export const siteConfig = {
 		headline: 'Ada Masalah, Ada NALAR.',
 		subheadline:
 			'Laptop tiba-tiba error, data penting nggak terbaca, atau bingung cara online-kan website? Ceritakan kendalamu pakai bahasa sehari-hari. NALAR bantu urai masalahnya dan tentukan solusi yang paling tepat sasaran.',
-		serviceSummary: ['Computer', 'Data Recovery', 'Linux', 'Web'],
+		serviceSummary: [
+			'Komputer & Laptop',
+			'Data Recovery',
+			'Linux & Server',
+			'Website & Deployment'
+		],
 		primaryCta: 'Konsultasikan Masalahmu',
 		secondaryCta: 'Lihat Layanan'
 	},
@@ -98,7 +103,7 @@ export const siteConfig = {
 		{
 			id: 'computer',
 			number: '01',
-			title: 'COMPUTER',
+			title: 'Komputer & Laptop',
 			shortDescription: 'Install, setup, troubleshooting, dan optimasi komputer maupun laptop.',
 			details: [
 				'Instalasi Windows / Linux & Dual Boot',
@@ -113,7 +118,7 @@ export const siteConfig = {
 		{
 			id: 'data-recovery',
 			number: '02',
-			title: 'DATA RECOVERY',
+			title: 'Data Recovery',
 			shortDescription:
 				'Membantu mengecek dan memulihkan data dari storage yang bermasalah, selama kondisi fisik perangkat memungkinkan.',
 			details: [
@@ -128,7 +133,7 @@ export const siteConfig = {
 		{
 			id: 'linux-server',
 			number: '03',
-			title: 'LINUX & SERVER',
+			title: 'Linux & Server',
 			shortDescription:
 				'Bantuan praktis instalasi Linux, development environment, VPS, dan server dasar.',
 			details: [
@@ -144,7 +149,7 @@ export const siteConfig = {
 		{
 			id: 'web',
 			number: '04',
-			title: 'WEB',
+			title: 'Website & Deployment',
 			shortDescription:
 				'Landing page, website bisnis atau UMKM, domain, hosting, deployment, hingga maintenance.',
 			details: [
@@ -212,9 +217,9 @@ export const siteConfig = {
 
 	recoveryNotice: {
 		heading: 'Data penting hilang? Jangan buru-buru utak-atik.',
-		lead: 'Kalau file penting tiba-tiba hilang atau storage tidak terbaca, sebisa mungkin hentikan penggunaan perangkat tersebut. Menjalankan laptop atau menginstal software sembarangan berisiko membuat data lama tertimpa permanen.',
+		lead: 'Kalau file penting tiba-tiba hilang atau storage tidak terbaca, sebisa mungkin hentikan penggunaan perangkat tersebut. Menjalankan laptop terus-menerus atau mencoba software recovery sembarangan berisiko menimpa data lama secara permanen.',
 		assurance:
-			'NALAR bisa membantu memeriksa kondisi fisik storage dan peluang recovery sebelum mengambil tindakan lebih lanjut.',
+			'NALAR bisa membantu memeriksa kondisi fisik storage dan peluang pemulihan secara objektif sebelum mengambil tindakan lebih lanjut.',
 		ctaText: 'Konsultasikan Data Recovery'
 	},
 
@@ -245,6 +250,11 @@ export const siteConfig = {
 
 	faq: [
 		{
+			question: 'Laptop saya mati total, apakah datanya masih bisa diselamatkan?',
+			answer:
+				'Sangat sering masih bisa. Pada sebagian besar kasus laptop mati total, media penyimpanan data (SSD/harddisk) masih dalam kondisi fisik yang sehat di dalamnya. Kami bantu cek kondisi storage-nya terlebih dahulu dan mencadangkan data pentingmu dengan aman.'
+		},
+		{
 			question: 'Apakah saya harus tahu persis penyebab masalahnya?',
 			answer:
 				'Nggak perlu. Cukup ceritakan gejala apa yang kamu lihat atau apa yang sedang ingin kamu capai. Kita bantu periksa sama-sama.'
@@ -268,6 +278,11 @@ export const siteConfig = {
 			question: 'Bisa membuat sistem atau aplikasi khusus untuk bisnis saya?',
 			answer:
 				'Bisa untuk kebutuhan yang terukur. Ceritakan dulu alur kerja atau kendala yang dihadapi, agar kita bisa menilai apakah sistem custom memang solusi yang paling efisien.'
+		},
+		{
+			question: 'Bagaimana jika kendala IT saya tidak ada di daftar layanan di atas?',
+			answer:
+				'Tetap tanyakan saja. Selama masih dalam ranah komputer, sistem operasi, server, jaringan lokal, atau web, ceritakan kendalamu. Kalau memang di luar kapasitas kami, kami akan katakan terus terang dan merekomendasikan langkah terbaik untukmu.'
 		}
 	] as FAQItem[],
 

@@ -9,12 +9,7 @@
 >
 	<!-- Section Header -->
 	<div class="max-w-2xl">
-		<div class="tag-mono mb-3 flex items-center gap-2 text-xs text-foreground-subtle">
-			<span class="inline-flex gap-1 text-[8px] text-accent select-none" aria-hidden="true"
-				>■ ■ ■</span
-			>
-			<span>05 / CARA KERJA</span>
-		</div>
+		<p class="tag-mono mb-3 text-xs font-semibold tracking-wider text-accent">ALUR KERJA</p>
 		<h2
 			id="process-heading"
 			class="text-2xl font-bold tracking-tight text-foreground sm:text-3xl md:text-4xl"
@@ -34,7 +29,7 @@
 				<div class="flex items-center gap-2">
 					<span class="inline-block h-1.5 w-1.5 bg-accent select-none" aria-hidden="true"></span>
 					<span class="font-mono text-xs font-semibold text-accent">
-						{step.number} / LANGKAH
+						Langkah {step.number}
 					</span>
 				</div>
 				<h3 class="mt-2 text-xl font-bold tracking-tight text-foreground">

@@ -10,12 +10,7 @@
 	<div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
 		<!-- Left Column: Headline & Narrative Context -->
 		<div class="lg:col-span-5">
-			<div class="tag-mono mb-3 flex items-center gap-2 text-xs text-foreground-subtle">
-				<span class="inline-flex gap-1 text-[8px] text-accent select-none" aria-hidden="true"
-					>■ ■ ■</span
-				>
-				<span>02 / PENDEKATAN</span>
-			</div>
+			<p class="tag-mono mb-3 text-xs font-semibold tracking-wider text-accent">PENDEKATAN</p>
 			<h2
 				id="philosophy-heading"
 				class="text-2xl font-bold tracking-tight text-foreground sm:text-3xl md:text-4xl"

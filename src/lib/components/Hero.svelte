@@ -108,12 +108,9 @@
 
 		<!-- Service Summary (Editorial Row with Pixel Accent) -->
 		<div class="mt-14 border-t border-border/80 pt-6">
-			<div class="flex items-center gap-2">
-				<span class="inline-flex gap-1 text-[8px] text-accent select-none" aria-hidden="true"
-					>■ ■ ■</span
-				>
-				<p class="tag-mono text-xs text-foreground-subtle">Fokus Layanan</p>
-			</div>
+			<p class="tag-mono text-xs font-semibold tracking-wider text-foreground-subtle">
+				FOKUS LAYANAN
+			</p>
 			<div class="mt-3 flex flex-wrap items-center gap-2 sm:gap-2.5">
 				{#each siteConfig.hero.serviceSummary as service (service)}
 					<span

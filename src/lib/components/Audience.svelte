@@ -9,12 +9,7 @@
 >
 	<!-- Section Header -->
 	<div class="max-w-2xl">
-		<div class="tag-mono mb-3 flex items-center gap-2 text-xs text-foreground-subtle">
-			<span class="inline-flex gap-1 text-[8px] text-accent select-none" aria-hidden="true"
-				>■ ■ ■</span
-			>
-			<span>04 / AUDIENS</span>
-		</div>
+		<p class="tag-mono mb-3 text-xs font-semibold tracking-wider text-accent">UNTUK SIAPA</p>
 		<h2
 			id="audience-heading"
 			class="text-2xl font-bold tracking-tight text-foreground sm:text-3xl md:text-4xl"
@@ -32,7 +27,7 @@
 		{#each siteConfig.audiences as audience (audience.category)}
 			<div class="flex flex-col">
 				<div class="border-b border-border pb-4">
-					<span class="tag-mono text-xs text-accent">Kategori</span>
+					<span class="tag-mono text-xs text-foreground-subtle">Kategori</span>
 					<h3 class="mt-1 text-2xl font-bold tracking-tight text-foreground">
 						{audience.category}
 					</h3>

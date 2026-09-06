@@ -16,12 +16,7 @@
 >
 	<!-- Section Header -->
 	<div class="max-w-2xl">
-		<div class="tag-mono mb-3 flex items-center gap-2 text-xs text-foreground-subtle">
-			<span class="inline-flex gap-1 text-[8px] text-accent select-none" aria-hidden="true"
-				>■ ■ ■</span
-			>
-			<span>03 / LAYANAN</span>
-		</div>
+		<p class="tag-mono mb-3 text-xs font-semibold tracking-wider text-accent">LAYANAN</p>
 		<h2
 			id="services-heading"
 			class="text-2xl font-bold tracking-tight text-foreground sm:text-3xl md:text-4xl"
@@ -48,7 +43,7 @@
 									<PixelIcon name={serviceIconMap[service.id] ?? 'computer'} size={13} />
 								</span>
 								<span class="tag-mono text-xs text-foreground-subtle">
-									{service.number} / LAYANAN
+									{service.number}
 								</span>
 							</div>
 							<h3 class="mt-2 text-xl font-bold tracking-tight text-foreground sm:text-2xl">
