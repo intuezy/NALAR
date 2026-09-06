@@ -17,8 +17,7 @@
 			Buat siapa?
 		</h2>
 		<p class="mt-3 text-base text-foreground-muted sm:text-lg">
-			Bantuan teknologi praktis yang dirancang tepat guna, baik untuk kebutuhan personal maupun
-			usaha.
+			Untuk kebutuhan pribadi maupun usaha. Yang penting, masalahnya jelas dan bisa kita bantu.
 		</p>
 	</div>
 

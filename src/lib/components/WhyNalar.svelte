@@ -17,8 +17,7 @@
 			Kenapa NALAR?
 		</h2>
 		<p class="mt-3 text-base text-foreground-muted sm:text-lg">
-			Tanpa klaim berlebihan atau istilah rumit. Kami berfokus pada cara kerja yang jujur,
-			transparan, dan solutif.
+			Nggak perlu jargon atau janji berlebihan. Kita fokus memahami masalah, menjelaskan pilihannya, lalu mengerjakan yang memang dibutuhkan.
 		</p>
 	</div>
 

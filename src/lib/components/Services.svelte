@@ -24,7 +24,7 @@
 			Yang bisa dibantu NALAR
 		</h2>
 		<p class="mt-3 text-base text-foreground-muted sm:text-lg">
-			Pilih lingkup bantuan yang paling relevan dengan kendala atau kebutuhanmu saat ini.
+			Cari layanan yang paling dekat dengan masalah atau kebutuhanmu.
 		</p>
 	</div>
 

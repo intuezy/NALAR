@@ -64,20 +64,20 @@ export const siteConfig = {
 		badge: 'Bantuan IT Praktis & Masuk Akal',
 		headline: 'Ada Masalah, Ada NALAR.',
 		subheadline:
-			'Laptop tiba-tiba error, data penting nggak terbaca, atau bingung cara online-kan website? Ceritakan kendalamu pakai bahasa sehari-hari. NALAR bantu urai masalahnya dan tentukan solusi yang paling tepat sasaran.',
+			'Laptop error, data hilang, mau install Linux, atau bingung bikin website? Ceritakan masalahnya. NALAR bantu cari jalan keluarnya.',
 		serviceSummary: [
 			'Komputer & Laptop',
 			'Data Recovery',
 			'Linux & Server',
 			'Website & Deployment'
 		],
-		primaryCta: 'Konsultasikan Masalahmu',
+		primaryCta: 'Ceritakan Masalahnya',
 		secondaryCta: 'Lihat Layanan'
 	},
 
 	philosophy: {
 		heading: 'Mulai dari masalahnya.',
-		lead: 'Nggak semua masalah butuh solusi yang rumit. Kami pahami dulu kebutuhannya, cari penyebabnya, lalu tentukan cara yang paling masuk akal untuk menyelesaikannya.',
+		lead: 'Nggak semua masalah butuh solusi yang rumit. Kita pahami dulu apa yang terjadi, cari penyebabnya, lalu tentukan cara yang paling masuk akal untuk menyelesaikannya.',
 		pillars: [
 			{
 				tag: 'PAHAMI',
@@ -104,7 +104,8 @@ export const siteConfig = {
 			id: 'computer',
 			number: '01',
 			title: 'Komputer & Laptop',
-			shortDescription: 'Install, setup, troubleshooting, dan optimasi komputer maupun laptop.',
+			shortDescription:
+				'Bantu setup, instalasi, troubleshooting, dan optimasi komputer maupun laptop.',
 			details: [
 				'Instalasi Windows / Linux & Dual Boot',
 				'Setup laptop baru, driver, dan software pendukung',
@@ -120,7 +121,7 @@ export const siteConfig = {
 			number: '02',
 			title: 'Data Recovery',
 			shortDescription:
-				'Membantu mengecek dan memulihkan data dari storage yang bermasalah, selama kondisi fisik perangkat memungkinkan.',
+				'Bantu mengecek kondisi storage dan memulihkan data yang masih memungkinkan untuk diselamatkan.',
 			details: [
 				'Pengecekan kondisi harddisk / SSD / flashdisk',
 				'File penting terhapus secara tidak sengaja',
@@ -135,7 +136,7 @@ export const siteConfig = {
 			number: '03',
 			title: 'Linux & Server',
 			shortDescription:
-				'Bantuan praktis instalasi Linux, development environment, VPS, dan server dasar.',
+				'Bantu instalasi Linux, setup lingkungan kerja, VPS, dan server dasar.',
 			details: [
 				'Instalasi distro Linux & konfigurasi dual boot aman',
 				'Setup workstation programming (Git, Docker, runtime dev)',
@@ -151,7 +152,7 @@ export const siteConfig = {
 			number: '04',
 			title: 'Website & Deployment',
 			shortDescription:
-				'Landing page, website bisnis atau UMKM, domain, hosting, deployment, hingga maintenance.',
+				'Bantu membuat website, landing page, dan mengonlinekan website sampai siap digunakan.',
 			details: [
 				'Pembuatan landing page & website profil usaha yang cepat',
 				'Setup nama domain, hosting, dan sertifikat SSL',
@@ -177,7 +178,7 @@ export const siteConfig = {
 		},
 		{
 			category: 'Bisnis & UMKM',
-			lead: 'Buat usaha atau kantor kecil yang butuh kehadiran digital dan operasional teknis andal.',
+			lead: 'Buat usaha atau kantor kecil yang butuh website, bantuan teknis, atau setup digital yang sederhana dan tepat guna.',
 			items: [
 				'Website bisnis / UMKM yang rapi dan siap pakai',
 				'Membantu deploy website yang sudah dibuat tapi bingung cara online-nya',
@@ -193,25 +194,25 @@ export const siteConfig = {
 			number: '01',
 			title: 'Ceritakan',
 			description:
-				'Ceritakan apa yang kamu lihat atau rasakan. "Laptop sering mati sendiri" atau "Flashdisk minta format" sudah cukup bagi kami untuk mulai memeriksa.'
+				'Ceritakan apa yang terjadi. "Laptop sering mati sendiri" atau "Flashdisk minta format" sudah cukup untuk mulai.'
 		},
 		{
 			number: '02',
 			title: 'Kita Cek',
 			description:
-				'Kami pelajari kondisinya terlebih dahulu untuk mengetahui apa yang sebenarnya terjadi dan opsi penanganan yang masuk akal.'
+				'Kita cek kondisinya dulu untuk mencari tahu apa yang sebenarnya terjadi dan apa pilihan yang masuk akal.'
 		},
 		{
 			number: '03',
 			title: 'Sepakati',
 			description:
-				'Setelah solusi jelas, rencana kerja dan estimasi biayanya kita bicarakan terbuka sebelum mulai dikerjakan.'
+				'Kalau sudah jelas, kita bicarakan rencana kerja dan estimasi biaya sebelum mulai.'
 		},
 		{
 			number: '04',
 			title: 'Beres',
 			description:
-				'Pekerjaan diselesaikan sesuai kesepakatan dan hasil akhirnya dijelaskan dengan transparan.'
+				'Pekerjaan diselesaikan sesuai kesepakatan, lalu hasilnya dijelaskan dengan jelas.'
 		}
 	] as StepItem[],
 
@@ -227,7 +228,7 @@ export const siteConfig = {
 		{
 			title: 'Berangkat dari kebutuhan',
 			description:
-				'Kami tidak langsung menawarkan paket atau alat mahal. Kami dengarkan dan pahami dulu kendalanya.'
+				'Kita dengarkan dan pahami dulu kendalanya, tanpa langsung menawarkan paket atau alat yang tidak perlu.'
 		},
 		{
 			title: 'Solusi seperlunya',
@@ -289,8 +290,8 @@ export const siteConfig = {
 	finalCta: {
 		headline: 'Punya masalah IT? Ceritain aja.',
 		subheadline:
-			'Kamu nggak harus paham jeroan teknologinya. Cukup ceritakan kendalanya, nanti kita bantu petakan masalahnya dan cari jalan keluar yang masuk akal.',
+			'Nggak perlu paham istilah teknis. Ceritakan kendalanya, kita bantu cari tahu langkah berikutnya.',
 		primaryAction: 'Chat WhatsApp',
-		note: 'Konsultasi awal untuk memahami kebutuhan · Respon ramah & transparan.'
+		note: ''
 	}
 };

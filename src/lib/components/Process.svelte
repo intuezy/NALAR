@@ -17,8 +17,7 @@
 			Nggak tahu masalahnya apa? Nggak apa-apa.
 		</h2>
 		<p class="mt-3 text-base text-foreground-muted sm:text-lg">
-			Prosesnya dibuat sesederhana dan senyaman mungkin. Kamu cukup jelaskan apa yang terjadi tanpa
-			khawatir istilah teknis.
+			Cukup ceritakan apa yang terjadi. Nggak perlu tahu istilah teknis atau penyebabnya.
 		</p>
 	</div>
 

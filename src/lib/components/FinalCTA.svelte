@@ -47,8 +47,10 @@
 			</a>
 		</div>
 
-		<p class="mt-4 text-xs text-foreground-subtle">
-			{siteConfig.finalCta.note}
-		</p>
+		{#if siteConfig.finalCta.note}
+			<p class="mt-4 text-xs text-foreground-subtle">
+				{siteConfig.finalCta.note}
+			</p>
+		{/if}
 	</div>
 </section>
