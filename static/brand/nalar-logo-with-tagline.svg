@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 480" width="1800" height="480">
+  <!-- Badge Icon on Left -->
+  <g transform="translate(60, 80)">
+    <rect x="14" y="14" width="300" height="300" rx="60" fill="#1754CF" />
+    <rect x="0" y="0" width="300" height="300" rx="60" fill="#151618" />
+    <g transform="translate(45, 45) scale(13.125)" shape-rendering="crispEdges">
+      <path d="M2 2h3v12H2V2zm9 0h3v12h-3V2zM5 5h2v2H5V5zm2 2h2v2H7V7zm2 2h2v2H9V9z" fill="#FAF9F6" />
+      <rect x="12" y="11" width="3" height="3" fill="#1754CF" />
+    </g>
+  </g>
+
+  <!-- NALAR Wordmark -->
+  <text x="430" y="250" font-family="Inter, -apple-system, sans-serif" font-weight="900" font-size="180" letter-spacing="-5" fill="#151618">NALAR</text>
+  <!-- Tagline -->
+  <text x="435" y="340" font-family="Inter, -apple-system, sans-serif" font-weight="600" font-size="52" letter-spacing="-0.5" fill="#585960">Ada Masalah, Ada NALAR.</text>
+</svg>

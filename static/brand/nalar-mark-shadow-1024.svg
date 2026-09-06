@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1024" height="1024">
+  <!-- Accent Brutalist Hard Shadow -->
+  <rect x="74" y="74" width="380" height="380" rx="76" fill="#1754CF" />
+  <!-- Main Dark Badge -->
+  <rect x="58" y="58" width="380" height="380" rx="76" fill="#151618" />
+  
+  <!-- 16-bit Pixel N Graphic -->
+  <g transform="translate(122, 122) scale(15.75)" shape-rendering="crispEdges">
+    <path d="M2 2h3v12H2V2zm9 0h3v12h-3V2zM5 5h2v2H5V5zm2 2h2v2H7V7zm2 2h2v2H9V9z" fill="#FAF9F6" />
+    <rect x="12" y="11" width="3" height="3" fill="#1754CF" />
+  </g>
+</svg>
