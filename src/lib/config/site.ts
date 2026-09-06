@@ -51,7 +51,7 @@ export const siteConfig = {
 		'NALAR membantu individu dan bisnis menyelesaikan kebutuhan IT, dari komputer dan data recovery hingga Linux, server, dan website.',
 
 	// Official WhatsApp number
-	whatsappNumber: '6285788141307',
+	whatsappNumber: '6288245347836',
 
 	navItems: [
 		{ label: 'Layanan', href: '#layanan' },
